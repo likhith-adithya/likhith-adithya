@@ -19,8 +19,8 @@ Data Science student specializing in Machine Learning, AI, and Natural Language 
 
 ## 📊 Key Projects
 
-### Stock Forecasting System
-End-to-end machine learning workflow for stock trend prediction using time-series analysis and predictive models
+### Nvidia llamma RAG Project
+Hybrid Retrieval-Augmented Generation (RAG) system using an OpenAI-compatible base model client 
 
 ### Smart India Hackathon (SIH) Project
 Documentation and implementation of innovative solutions developed during the Smart India Hackathon competition.
@@ -31,9 +31,9 @@ Documentation and implementation of innovative solutions developed during the Sm
 
 | Category | Technologies |
 |----------|---------------|
-| **Programming** | Python |
+| **Programming** | Python ,C/C++ , SQL|
 | **ML/Data Stack** | Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn |
-| **AI & NLP** | Text Processing, Embeddings, LLM Experimentation , AI prompting |
+| **AI & NLP** | ,Text Processing, Embeddings, LLM Experimentation , AI prompting |
 | **Tools & Platforms** | Git, GitHub, Jupyter, Streamlit, Google Colab |
 | **Communities** | IEEE, NVIDIA Developer Program |
 
@@ -41,7 +41,7 @@ Documentation and implementation of innovative solutions developed during the Sm
 
 ## 📬 Connect With Me
 
-- **LinkedIn:** [linkedin.com/in/LA4](https://linkedin.com/in/LA4)
+- **LinkedIn:** [linkedin.com/in/LA4](https://linkedin.com/in/likhith-adithya)
 - **GitHub:** [github.com/LIKHITHADITHYA](https://github.com/LIKHITHADITHYA)
 
 ---
