@@ -31,9 +31,9 @@ Documentation and implementation of innovative solutions developed during the Sm
 
 | Category | Technologies |
 |----------|---------------|
-| **Programming** | Python ,C/C++ , SQL|
-| **ML/Data Stack** | Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn |
-| **AI & NLP** | ,Text Processing, Embeddings, LLM Experimentation , AI prompting |
+| **Programming** | Python ,Type script , SQL|
+| **ML/Data Stack** | AI,Scikit-Learn, Pandas, NumPy, Matplotlib, Seaborn |
+| **AI & NLP** | A2A,ADK,Text Processing, Embeddings, LLM Experimentation , AI prompting |
 | **Tools & Platforms** | Git, GitHub, Jupyter, Streamlit, Google Colab |
 | **Communities** | IEEE, NVIDIA Developer Program |
 
