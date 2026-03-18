@@ -1,66 +1,87 @@
 # **LIKHITH ADITHYA**
 
-**AI Systems Engineer & Data Scientist**  
-Architecting scalable multi-agent systems, AI infrastructure, and production ML pipelines.
+**AI/ML Engineer  Open Source Contributor**  
+Building production-grade multi-agent systems and AI infrastructure. Developing scalable ML pipelines and autonomous reasoning systems for real-world problems.
 
 <div align="left">
-  <a href="YOUR_CREDLY_URL_HERE"><img alt="Credly" src="https://img.shields.io/badge/Credly-Certifications-FF6B00?style=flat-square&logo=credly&logoColor=white" /></a>
+  <a href="https://www.credly.com/users/likhithadithya"><img alt="Credly" src="https://img.shields.io/badge/Credly-Certifications-FF6B00?style=flat-square&logo=credly&logoColor=white" /></a>
+  <a href="https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4"><img alt="Google Skills" src="https://img.shields.io/badge/Google-Skills%20Profile-4285F4?style=flat-square&logo=google&logoColor=white" /></a>
   <a href="https://linkedin.com/in/likhith-adithya"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://openai.com/"><img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-Developer-412991?style=flat-square&logo=openai&logoColor=white" /></a>
+  <a href="https://gdg.community.dev/"><img alt="Google Developer Group" src="https://img.shields.io/badge/GDG-Community-4285F4?style=flat-square&logo=google&logoColor=white" /></a>
 </div>
 
 ---
 
-## **💡 ENGINEERING FOCUS & EXPERTISE**
-I bridge the gap between AI research and production software. My focus is on building resilient, agent-driven applications and optimizing ML workflows for scale.
+## **💡 WHAT I BUILD**
+I architect and ship multi-agent systems, distributed AI infrastructure, and production ML pipelines. I work with standardized protocols like MCP to enable agent interoperability, optimize inference at scale, and solve real-world problems through autonomous reasoning.
 
-- **AI System Design:** Architecting highly scalable AI backends and robust RAG pipelines.
-- **Agentic Architecture:** Designing multi-agent systems, Agent-to-Agent (A2A) communication protocols, and implementing MCP (Model Context Protocol).
-- **MLOps & CI/CD:** Building automated deployment pipelines, continuous integration, and continuous evaluation for ML models.
-- **Production ML:** End-to-end predictive modeling, LLM fine-tuning, and embedding optimizations.
-
----
-
-## **🚀 FEATURED ENGINEERING WORK**
-
-### **[NVIDIA LLAMA RAG SYSTEM](https://github.com/LIKHITHADITHYA/YOUR_REPO_NAME)**
-*Python • PyTorch • LLaMA • LangChain • FastAPI • Vector DBs*
-- **Architecture:** Engineered a hybrid Retrieval-Augmented Generation (RAG) pipeline utilizing an OpenAI-compatible base model client and semantic vector search.
-- **Impact:** Achieved a **[<500ms] p95 retrieval latency** and reduced LLM hallucination rates by **[~30%]** through optimized chunking strategies and prompt grounding.
-
-### **[CIVIC ISSUE RESOLUTION ENGINE (SIH)](https://github.com/LIKHITHADITHYA/YOUR_REPO_NAME)**
-*Machine Learning • Python • Cloud Infrastructure*
-- **Architecture:** Architected an end-to-end data pipeline and asynchronous backend under a strict 36-hour deadline.
-- **Impact:** Delivered a highly concurrent, deployment-ready prototype capable of processing **[100+] parallel requests**, utilizing optimized queries and scalable cloud infrastructure.
+- **Multi-Agent Systems & MCP:** Build Agent-to-Agent (A2A) communication patterns, implement Model Context Protocol (MCP) for standardized tool interoperability, design agentic loop architectures for autonomous reasoning at scale.
+- **AI Infrastructure:** Develop distributed inference systems, retrieval pipelines, and real-time data systems with latency optimization and production robustness.
+- **Production ML:** Ship end-to-end ML systems with evaluation frameworks, automated deployment, and monitoring strategies.
+- **Open Source:** Contribute to production AI systems, build reusable frameworks, and maintain code for real-world usage.
 
 ---
 
-## **🔄 RECENT OPEN SOURCE WORK (AUTO-UPDATED)**
-<!-- START_SECTION:recent_projects -->
-*My latest projects will automatically appear here via GitHub Actions.*
-<!-- END_SECTION:recent_projects -->
+## **🚀 SHIPPED PROJECTS**
+
+### **[NVIDIA LLAMA RAG SYSTEM](https://github.com/LIKHITHADITHYA/Nvidia-Llama-RAG)**
+*Python • LangChain • SerpAPI • Gradio • OpenAI/NVIDIA LLMs*
+
+- **What I Built:** Hybrid RAG (Retrieval-Augmented Generation) pipeline that integrates real-time web search (SerpAPI) with LLMs to eliminate hallucinations. Built interactive Gradio UI for A/B testing RAG vs. baseline LLM outputs.
+
+- **Technical Implementation:** 
+  - Architected LangChain orchestration layer for multi-step workflows
+  - Integrated SerpAPI for live web search with robust parsing and error handling
+  - Implemented functools-based caching strategy for query optimization
+  - Built Gradio comparative UI for side-by-side response analysis
+  - Designed environment-based secret management (no hardcoded keys)
+
+- **Results:** Production-ready system with comprehensive documentation (README, WALKTHROUGH.md), deployment guides for AWS Lambda and Hugging Face Spaces, and security best practices.
+
+### **[DEBUG AI AGENT](https://github.com/LIKHITHADITHYA/debug-ai-agent)**
+*Python 3.12+ • Pydantic • Async/Await • Google ADK • MCP • Agent-to-Agent Protocol*
+
+- **What I Built:** Enterprise-scale multi-agent system for GitHub repository analysis. Implemented primary orchestrator agent that dynamically spawns specialized Debug Agents via A2A protocol. Integrated Model Context Protocol (MCP) for standardized tool communication across agent ecosystem.
+
+- **Technical Implementation:**
+  - **Implemented MCP Specification:** Built MCP server for standardized tool/resource sharing between orchestrator and specialist agents, enabling interoperable multi-agent workflows
+  - **Agent Delegation System:** Designed A2A protocol for agent spawning, task assignment, and result aggregation with proper error handling and retry logic
+  - **Multi-LLM Support:** Built abstraction layer supporting OpenAI, Google Gemini, local Ollama/vLLM with unified interface
+  - **Production Architecture:** Strict typing with Pydantic, async/await concurrency, CLI interface, environment configuration, structured logging
+  - **Tool Integration:** Integrated GitHub API with MCP-compliant tool protocol for code analysis, bug detection, security scanning
+
+- **Results:** Deployable agent framework with extensible architecture. Demonstrated sophisticated coordination patterns and standardized protocol implementation.
 
 ---
 
-## **🛠️ TECHNICAL ARSENAL**
+## **🛠️ TECHNICAL TOOLKIT**
 
-### **💻 CORE ENGINEERING & BACKEND**
+### **💻 LANGUAGES & BACKENDS**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
-### **🧠 AI, ML & DATA**
+### **🧠 AI & ML FRAMEWORKS**
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-111111?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/-HuggingFace-FDEE21?style=flat-square&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8B5CF6?style=flat-square)
+![Gradio](https://img.shields.io/badge/Gradio-FF4B4B?style=flat-square&logo=gradio&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-* **Frameworks & Tools:** SmolAgents, OpenAI API, Apache Spark, NumPy
-* **Vector Databases:** Pinecone, ChromaDB, FAISS
-* **Evaluation & MLOps:** RAGAS, MLflow, LLM Benchmarking
 
-### **☁️ CLOUD, DEVOPS & CI/CD**
+* **Agent Protocols & Frameworks:** Model Context Protocol (MCP), LangChain, Pydantic, Google ADK, Ollama, vLLM
+* **Tools & Libraries:** NumPy, Apache Spark, functools, async/await
+* **Vector Databases:** Pinecone, ChromaDB, FAISS
+* **Evaluation & Monitoring:** RAGAS, MLflow, structured logging, error tracking
+
+### **☁️ CLOUD & DEVOPS**
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
@@ -68,18 +89,22 @@ I bridge the gap between AI research and production software. My focus is on bui
 
 ---
 
-## **📜 CERTIFICATIONS & CONTINUOUS LEARNING**
-- 🏅 **[View my Credly Profile](YOUR_CREDLY_URL_HERE)** (IBM / Specialized Tech)
-- ☁️ **[View my Google Cloud Skills Badges](YOUR_GOOGLE_SKILLS_URL_HERE)** (GenAI & Cloud Infrastructure)
+## **📚 CERTIFICATIONS & CREDENTIALS**
+- 🚀 **[Credly Certifications](https://www.credly.com/users/likhithadithya)** — AI credentials
+- ☁️ **[Google Skills Profile](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)** — Google training
+- 👨‍💻 **OpenAI Developer Community** — Active member
+- 🤖 **Google Developer Group** — Community contributor
 
 ---
 
-## **📊 ENGINEERING ANALYTICS**
-
+## **📊 GITHUB ACTIVITY**
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=LIKHITHADITHYA&show_icons=true&theme=transparent&hide_border=true&title_color=0A66C2&icon_color=0A66C2&count_private=true" height="180" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LIKHITHADITHYA&layout=compact&theme=transparent&hide_border=true&title_color=0A66C2" height="180" alt="Top Languages" />
+  <img src="https://ghchart.rshah.org/0A66C2/LIKHITHADITHYA" alt="GitHub Contribution Graph" />
 </div>
 
 ---
-*Open to AI Systems Engineering and Data Science opportunities. [Let's connect on LinkedIn!](https://linkedin.com/in/likhith-adithya)*
+
+## **NEXT**
+Seeking internship or junior engineer roles in AI/ML systems engineering. Open to roles focused on multi-agent systems, inference infrastructure, or production ML platforms.
+
+[Connect on LinkedIn](https://linkedin.com/in/likhith-adithya) | [View my repositories](https://github.com/LIKHITHADITHYA)
