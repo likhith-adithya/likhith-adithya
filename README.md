@@ -99,7 +99,7 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
 
 ## **📊 GITHUB ACTIVITY**
 <div align="center">
-  <img src="https://ghchart.rshah.org/0A66C2/LIKHITHADITHYA" alt="GitHub Contribution Graph" />
+  <img src="https://ghchart.rshah.org/0A66C2/likhith-adithya" alt="GitHub Contribution Graph" />
 </div>
 
 ---
