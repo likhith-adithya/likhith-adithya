@@ -5,7 +5,7 @@ Building production-grade multi-agent systems and AI infrastructure. Developing 
 
 <div align="left">
   <a href="https://www.credly.com/users/likhithadithya"><img alt="Credly" src="https://img.shields.io/badge/Credly-Certifications-FF6B00?style=flat-square&logo=credly&logoColor=white" /></a>
-  <a href="https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4"><img alt="Google Skills" src="https://img.shields.io/badge/Google-Skills%20Profile-4285F4?style=flat-square&logo=google&logoColor=white" /></a>
+  <a href="https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4"><img alt="Google Skills" src="https://img.shields.io/badge/Google-Skills%20Profile-4285F4?style=flat-squar" /></a>
   <a href="https://linkedin.com/in/likhith-adithya"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
   <a href="https://openai.com/"><img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-Developer-412991?style=flat-square&logo=openai&logoColor=white" /></a>
   <a href="https://gdg.community.dev/"><img alt="Google Developer Group" src="https://img.shields.io/badge/GDG-Community-4285F4?style=flat-square&logo=google&logoColor=white" /></a>
@@ -14,21 +14,36 @@ Building production-grade multi-agent systems and AI infrastructure. Developing 
 ---
 
 ## **💡 WHAT I BUILD**
-I architect and ship multi-agent systems, distributed AI infrastructure, and production ML pipelines. I work with standardized protocols like MCP to enable agent interoperability, optimize inference at scale, and solve real-world problems through autonomous reasoning.
+I architect and ship multi-agent systems, distributed AI infrastructure, and production ML pipelines. I work with standardized protocols like MCP to enable agent interoperability, optimize inference, and build tools that scale from prototype to production.
 
-- **Multi-Agent Systems & MCP:** Build Agent-to-Agent (A2A) communication patterns, implement Model Context Protocol (MCP) for standardized tool interoperability, design agentic loop architectures for autonomous reasoning at scale.
+- **Multi-Agent Systems & MCP:** Build Agent-to-Agent (A2A) communication patterns, implement Model Context Protocol (MCP) for standardized tool interoperability, design agentic loop architectures
 - **AI Infrastructure:** Develop distributed inference systems, retrieval pipelines, and real-time data systems with latency optimization and production robustness.
 - **Production ML:** Ship end-to-end ML systems with evaluation frameworks, automated deployment, and monitoring strategies.
+- **Developer Tools:** Build CLI tools and IDE extensions that bring AI capabilities directly to developers.
 - **Open Source:** Contribute to production AI systems, build reusable frameworks, and maintain code for real-world usage.
 
 ---
 
 ## **🚀 SHIPPED PROJECTS**
 
-### **[NVIDIA LLAMA RAG SYSTEM](https://github.com/LIKHITHADITHYA/Nvidia-Llama-RAG)**
+### **[AI-CLI-PRO](https://github.com/likhith-adithya/AI-CLI-PRO-Public)** ⭐ **LATEST**
+*Python • Multi-Agent CLI • VS Code Extension • Gemini • Claude • Copilot*
+
+- **What I Built:** One-click AI agent launcher directly from VS Code. Integrated Gemini, Claude, and Copilot into a seamless CLI experience. The fastest way to access multiple AI models from your terminal.
+
+- **Technical Implementation:**
+  - Multi-agent orchestration for different LLM providers
+  - VS Code extension integration with CLI commands
+  - Environment-based configuration for API keys
+  - Async task execution for responsive UX
+  - Real-time streaming responses
+
+- **Results:** Production-ready developer tool with comprehensive docs and active development. Deployed to users for daily AI agent access.
+
+### **[NVIDIA LLAMA RAG SYSTEM](https://github.com/likhith-adithya/Nvidia-Llama-RAG)**
 *Python • LangChain • SerpAPI • Gradio • OpenAI/NVIDIA LLMs*
 
-- **What I Built:** Hybrid RAG (Retrieval-Augmented Generation) pipeline that integrates real-time web search (SerpAPI) with LLMs to eliminate hallucinations. Built interactive Gradio UI for A/B testing RAG vs. baseline LLM outputs.
+- **What I Built:** Hybrid RAG (Retrieval-Augmented Generation) pipeline that integrates real-time web search (SerpAPI) with LLMs to eliminate hallucinations. Built interactive Gradio UI for A/B testing responses.
 
 - **Technical Implementation:** 
   - Architected LangChain orchestration layer for multi-step workflows
@@ -39,10 +54,10 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
 
 - **Results:** Production-ready system with comprehensive documentation (README, WALKTHROUGH.md), deployment guides for AWS Lambda and Hugging Face Spaces, and security best practices.
 
-### **[DEBUG AI AGENT](https://github.com/LIKHITHADITHYA/debug-ai-agent)**
+### **[DEBUG AI AGENT](https://github.com/likhith-adithya/GITHUB-DEBUG-AI-AGENT)**
 *Python 3.12+ • Pydantic • Async/Await • Google ADK • MCP • Agent-to-Agent Protocol*
 
-- **What I Built:** Enterprise-scale multi-agent system for GitHub repository analysis. Implemented primary orchestrator agent that dynamically spawns specialized Debug Agents via A2A protocol. Integrated Model Context Protocol (MCP) for standardized tool communication across agent ecosystem.
+- **What I Built:** Enterprise-scale multi-agent system for GitHub repository analysis. Implemented primary orchestrator agent that dynamically spawns specialized Debug Agents via A2A protocol. Integrated with GitHub API for automated code analysis and bug detection.
 
 - **Technical Implementation:**
   - **Implemented MCP Specification:** Built MCP server for standardized tool/resource sharing between orchestrator and specialist agents, enabling interoperable multi-agent workflows
@@ -52,6 +67,20 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
   - **Tool Integration:** Integrated GitHub API with MCP-compliant tool protocol for code analysis, bug detection, security scanning
 
 - **Results:** Deployable agent framework with extensible architecture. Demonstrated sophisticated coordination patterns and standardized protocol implementation.
+
+### **[STOCK-FORECAST](https://github.com/likhith-adithya/Stock-Forecast)**
+*Python • Streamlit • Pandas • Prophet • Real-time Data Analysis*
+
+- **What I Built:** Interactive Streamlit app for real-time stock analysis and AI-driven price forecasting. Features live market data, sector-wise stock charts, technical indicators, news sentiment analysis, and Prophet-based predictions.
+
+- **Technical Implementation:**
+  - Real-time market data integration
+  - Sector-wise filtering and dynamic charting
+  - Technical indicator calculations
+  - News sentiment analysis for market context
+  - Prophet time-series forecasting for price predictions
+
+- **Results:** Full-stack analytics tool with customizable date ranges, sector selection, and chart types for informed investing decisions.
 
 ---
 
@@ -73,11 +102,12 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8B5CF6?style=flat-square)
 ![Gradio](https://img.shields.io/badge/Gradio-FF4B4B?style=flat-square&logo=gradio&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 * **Agent Protocols & Frameworks:** Model Context Protocol (MCP), LangChain, Pydantic, Google ADK, Ollama, vLLM
-* **Tools & Libraries:** NumPy, Apache Spark, functools, async/await
+* **Tools & Libraries:** NumPy, Apache Spark, functools, async/await, Prophet
 * **Vector Databases:** Pinecone, ChromaDB, FAISS
 * **Evaluation & Monitoring:** RAGAS, MLflow, structured logging, error tracking
 
@@ -86,6 +116,7 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ---
 
@@ -105,6 +136,6 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
 ---
 
 ## **NEXT**
-Seeking internship or junior engineer roles in AI/ML systems engineering. Open to roles focused on multi-agent systems, inference infrastructure, or production ML platforms.
+Seeking internship or junior engineer roles in AI/ML systems engineering. Open to roles focused on multi-agent systems, inference infrastructure, developer tools, or production ML platforms.
 
-[Connect on LinkedIn](https://linkedin.com/in/likhith-adithya) | [View my repositories](https://github.com/LIKHITHADITHYA)
+[Connect on LinkedIn](https://linkedin.com/in/likhith-adithya) | [View my repositories](https://github.com/likhith-adithya)
