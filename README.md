@@ -40,19 +40,22 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
 
 - **Results:** Production-ready developer tool with comprehensive docs and active development. Deployed to users for daily AI agent access.
 
-### **[NVIDIA LLAMA RAG SYSTEM](https://github.com/likhith-adithya/Nvidia-Llama-RAG)**
-*Python • LangChain • SerpAPI • Gradio • OpenAI/NVIDIA LLMs*
+### **[NVIDIA LLAMA-3 HYBRID RAG](https://github.com/likhith-adithya/Nvidia-Llama-RAG)**
+*Python • NVIDIA NIM • ChromaDB • SerpAPI • Gradio • FastAPI • CLI*
 
-- **What I Built:** Hybrid RAG (Retrieval-Augmented Generation) pipeline that integrates real-time web search (SerpAPI) with LLMs to eliminate hallucinations. Built interactive Gradio UI for A/B testing responses.
+- **What I Built:** Professional, modular hybrid Retrieval-Augmented Generation (RAG) system using NVIDIA Llama-3.3 LLM with real-time web search (SerpAPI) and persistent local vector database (ChromaDB). Intelligent document-aware query router that automatically decides between LOCAL documents, WEB search, or general knowledge.
 
-- **Technical Implementation:** 
-  - Architected LangChain orchestration layer for multi-step workflows
-  - Integrated SerpAPI for live web search with robust parsing and error handling
-  - Implemented functools-based caching strategy for query optimization
-  - Built Gradio comparative UI for side-by-side response analysis
-  - Designed environment-based secret management (no hardcoded keys)
+- **Technical Implementation:**
+  - **Intelligent Query Routing:** LLM-based router that automatically classifies queries between LOCAL (documents), WEB (search), or NONE (conversation)
+  - **Hybrid Retrieval Pipeline:** Integrates SerpAPI for live web search with ChromaDB vector database using `all-MiniLM-L6-v2` embeddings
+  - **Multi-Format Ingestion:** Supports `.txt` and `.pdf` files with automatic chunking, embedding, and persistent storage
+  - **Stateful Memory Management:** Maintains rolling conversation history buffer for multi-turn dialogue context
+  - **Error Handling & Fallback:** Graceful degradation with automatic fallback to general knowledge on missing keys or empty databases
+  - **Flexible Deployment:** Gradio web UI (`http://127.0.0.1:7860`), lightweight CLI, and FastAPI REST server (`http://0.0.0.0:8000`)
+  - **Comprehensive Testing:** 13+ unit tests (mocked) + integration tests with live API validation
+  - **Production Architecture:** Modular src/ structure, environment-based configuration, no hardcoded secrets
 
-- **Results:** Production-ready system with comprehensive documentation (README, WALKTHROUGH.md), deployment guides for AWS Lambda and Hugging Face Spaces, and security best practices.
+- **Results:** Production-ready RAG system with comprehensive documentation, multi-mode deployment (web/CLI/API), 13+ test suite, and demonstrated handling of edge cases like fallback routing and memory management.
 
 ### **[DEBUG AI AGENT](https://github.com/likhith-adithya/GITHUB-DEBUG-AI-AGENT)**
 *Python 3.12+ • Pydantic • Async/Await • Google ADK • MCP • Agent-to-Agent Protocol*
@@ -96,6 +99,7 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic-111111?style=flat-square)
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/-HuggingFace-FDEE21?style=flat-square&logo=huggingface&logoColor=black)
@@ -107,8 +111,8 @@ I architect and ship multi-agent systems, distributed AI infrastructure, and pro
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
 * **Agent Protocols & Frameworks:** Model Context Protocol (MCP), LangChain, Pydantic, Google ADK, Ollama, vLLM
-* **Tools & Libraries:** NumPy, Apache Spark, functools, async/await, Prophet
-* **Vector Databases:** Pinecone, ChromaDB, FAISS
+* **Tools & Libraries:** NumPy, Apache Spark, functools, async/await, Prophet, SerpAPI
+* **Vector Databases:** ChromaDB, Pinecone, FAISS
 * **Evaluation & Monitoring:** RAGAS, MLflow, structured logging, error tracking
 
 ### **☁️ CLOUD & DEVOPS**
