@@ -1,145 +1,297 @@
-# **LIKHITH ADITHYA**
+# <div align="center">✨ LIKHITH ADITHYA ✨</div>
 
-**AI/ML Engineer  Open Source Contributor**  
-Building production-grade multi-agent systems and AI infrastructure. Developing scalable ML pipelines and autonomous reasoning systems for real-world problems.
-
-<div align="left">
-  <a href="https://www.credly.com/users/likhithadithya"><img alt="Credly" src="https://img.shields.io/badge/Credly-Certifications-FF6B00?style=flat-square&logo=credly&logoColor=white" /></a>
-  <a href="https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4"><img alt="Google Skills" src="https://img.shields.io/badge/Google-Skills%20Profile-4285F4?style=flat-squar" /></a>
-  <a href="https://linkedin.com/in/likhith-adithya"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://openai.com/"><img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-Developer-412991?style=flat-square&logo=openai&logoColor=white" /></a>
-  <a href="https://gdg.community.dev/"><img alt="Google Developer Group" src="https://img.shields.io/badge/GDG-Community-4285F4?style=flat-square&logo=google&logoColor=white" /></a>
+<div align="center">
+  <p>
+    <strong>AI/ML Engineer</strong> • <strong>Open Source Contributor</strong> • <strong>Systems Builder</strong>
+  </p>
+  <p>
+    Architecting production-grade multi-agent systems, distributed AI infrastructure, and autonomous reasoning systems that solve real-world problems at scale.
+  </p>
 </div>
 
 ---
 
-## **💡 WHAT I BUILD**
-I architect and ship multi-agent systems, distributed AI infrastructure, and production ML pipelines. I work with standardized protocols like MCP to enable agent interoperability, optimize inference, and build tools that scale from prototype to production.
-
-- **Multi-Agent Systems & MCP:** Build Agent-to-Agent (A2A) communication patterns, implement Model Context Protocol (MCP) for standardized tool interoperability, design agentic loop architectures
-- **AI Infrastructure:** Develop distributed inference systems, retrieval pipelines, and real-time data systems with latency optimization and production robustness.
-- **Production ML:** Ship end-to-end ML systems with evaluation frameworks, automated deployment, and monitoring strategies.
-- **Developer Tools:** Build CLI tools and IDE extensions that bring AI capabilities directly to developers.
-- **Open Source:** Contribute to production AI systems, build reusable frameworks, and maintain code for real-world usage.
-
----
-
-## **🚀 SHIPPED PROJECTS**
-
-### **[AI-CLI-PRO](https://github.com/likhith-adithya/AI-CLI-PRO-Public)** ⭐ **LATEST**
-*Python • Multi-Agent CLI • VS Code Extension • Gemini • Claude • Copilot*
-
-- **What I Built:** One-click AI agent launcher directly from VS Code. Integrated Gemini, Claude, and Copilot into a seamless CLI experience. The fastest way to access multiple AI models from your terminal.
-
-- **Technical Implementation:**
-  - Multi-agent orchestration for different LLM providers
-  - VS Code extension integration with CLI commands
-  - Environment-based configuration for API keys
-  - Async task execution for responsive UX
-  - Real-time streaming responses
-
-- **Results:** Production-ready developer tool with comprehensive docs and active development. Deployed to users for daily AI agent access.
-
-### **[NVIDIA LLAMA-3 HYBRID RAG](https://github.com/likhith-adithya/Nvidia-Llama-RAG)**
-*Python • NVIDIA NIM • ChromaDB • SerpAPI • Gradio • FastAPI • CLI*
-
-- **What I Built:** Professional, modular hybrid Retrieval-Augmented Generation (RAG) system using NVIDIA Llama-3.3 LLM with real-time web search (SerpAPI) and persistent local vector database (ChromaDB). Intelligent document-aware query router that automatically decides between LOCAL documents, WEB search, or general knowledge.
-
-- **Technical Implementation:**
-  - **Intelligent Query Routing:** LLM-based router that automatically classifies queries between LOCAL (documents), WEB (search), or NONE (conversation)
-  - **Hybrid Retrieval Pipeline:** Integrates SerpAPI for live web search with ChromaDB vector database using `all-MiniLM-L6-v2` embeddings
-  - **Multi-Format Ingestion:** Supports `.txt` and `.pdf` files with automatic chunking, embedding, and persistent storage
-  - **Stateful Memory Management:** Maintains rolling conversation history buffer for multi-turn dialogue context
-  - **Error Handling & Fallback:** Graceful degradation with automatic fallback to general knowledge on missing keys or empty databases
-  - **Flexible Deployment:** Gradio web UI (`http://127.0.0.1:7860`), lightweight CLI, and FastAPI REST server (`http://0.0.0.0:8000`)
-  - **Comprehensive Testing:** 13+ unit tests (mocked) + integration tests with live API validation
-  - **Production Architecture:** Modular src/ structure, environment-based configuration, no hardcoded secrets
-
-- **Results:** Production-ready RAG system with comprehensive documentation, multi-mode deployment (web/CLI/API), 13+ test suite, and demonstrated handling of edge cases like fallback routing and memory management.
-
-### **[DEBUG AI AGENT](https://github.com/likhith-adithya/GITHUB-DEBUG-AI-AGENT)**
-*Python 3.12+ • Pydantic • Async/Await • Google ADK • MCP • Agent-to-Agent Protocol*
-
-- **What I Built:** Enterprise-scale multi-agent system for GitHub repository analysis. Implemented primary orchestrator agent that dynamically spawns specialized Debug Agents via A2A protocol. Integrated with GitHub API for automated code analysis and bug detection.
-
-- **Technical Implementation:**
-  - **Implemented MCP Specification:** Built MCP server for standardized tool/resource sharing between orchestrator and specialist agents, enabling interoperable multi-agent workflows
-  - **Agent Delegation System:** Designed A2A protocol for agent spawning, task assignment, and result aggregation with proper error handling and retry logic
-  - **Multi-LLM Support:** Built abstraction layer supporting OpenAI, Google Gemini, local Ollama/vLLM with unified interface
-  - **Production Architecture:** Strict typing with Pydantic, async/await concurrency, CLI interface, environment configuration, structured logging
-  - **Tool Integration:** Integrated GitHub API with MCP-compliant tool protocol for code analysis, bug detection, security scanning
-
-- **Results:** Deployable agent framework with extensible architecture. Demonstrated sophisticated coordination patterns and standardized protocol implementation.
-
-### **[STOCK-FORECAST](https://github.com/likhith-adithya/Stock-Forecast)**
-*Python • Streamlit • Pandas • Prophet • Real-time Data Analysis*
-
-- **What I Built:** Interactive Streamlit app for real-time stock analysis and AI-driven price forecasting. Features live market data, sector-wise stock charts, technical indicators, news sentiment analysis, and Prophet-based predictions.
-
-- **Technical Implementation:**
-  - Real-time market data integration
-  - Sector-wise filtering and dynamic charting
-  - Technical indicator calculations
-  - News sentiment analysis for market context
-  - Prophet time-series forecasting for price predictions
-
-- **Results:** Full-stack analytics tool with customizable date ranges, sector selection, and chart types for informed investing decisions.
+<div align="center">
+  <a href="https://linkedin.com/in/likhith-adithya">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/likhith-adithya">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.credly.com/users/likhithadithya">
+    <img alt="Credly" src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" />
+  </a>
+  <a href="https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4">
+    <img alt="Google Skills" src="https://img.shields.io/badge/Google%20Skills-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  </a>
+</div>
 
 ---
 
-## **🛠️ TECHNICAL TOOLKIT**
+## 💡 What I Build
 
-### **💻 LANGUAGES & BACKENDS**
+I specialize in engineering **production-grade AI systems** with a focus on scalability, reliability, and standardized protocols.
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  Multi-Agent Systems    │  AI Infrastructure  │  Production ML  │
+│  MCP Protocols          │  Distributed Systems│  Developer Tools│
+└─────────────────────────────────────────────────────────────┘
+```
+
+- **🤖 Multi-Agent & Orchestration:** Agent-to-Agent (A2A) communication, Model Context Protocol (MCP) implementation, agentic loop design, dynamic task delegation
+- **⚡ AI Infrastructure:** Distributed inference systems, retrieval-augmented generation (RAG) pipelines, real-time data systems, latency optimization
+- **🚀 Production ML:** End-to-end ML systems, evaluation frameworks, automated deployment, monitoring & observability
+- **🛠️ Developer Tools:** CLI utilities, IDE extensions, framework abstractions, accessible AI for developers
+- **🌐 Open Source:** Production-ready frameworks, reusable patterns, community contributions
+
+---
+
+## 🎯 Shipped Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🌟 AI-CLI-PRO
+**Latest | Production-Ready**
+
+*Python • Multi-Agent • VS Code*
+
+One-click AI agent launcher from VS Code. Seamlessly integrated Gemini, Claude, and Copilot into a unified CLI experience.
+
+**Key Features:**
+- Multi-agent LLM orchestration
+- VS Code extension integration
+- Real-time streaming responses
+- Environment-based config
+- Async task execution
+
+**Status:** Active development & production deployment
+
+[→ Repository](https://github.com/likhith-adithya/AI-CLI-PRO-Public)
+
+</td>
+<td width="50%">
+
+### 🦙 NVIDIA LLAMA-3 HYBRID RAG
+**Production | Enterprise-Grade**
+
+*Python • NIM • ChromaDB • FastAPI*
+
+Professional modular RAG system with intelligent query routing, hybrid retrieval, and multi-format ingestion.
+
+**Key Features:**
+- LLM-based query routing
+- Live web search integration
+- Vector database persistence
+- Multi-turn conversation memory
+- Gradio + FastAPI deployment
+
+**Status:** Complete with 13+ test suite
+
+[→ Repository](https://github.com/likhith-adithya/Nvidia-Llama-RAG)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🔍 DEBUG AI AGENT
+**Multi-Agent | Enterprise Scale**
+
+*Python 3.12+ • MCP • Pydantic*
+
+Enterprise multi-agent system for GitHub repository analysis with orchestrator + specialist agents via A2A protocol.
+
+**Key Features:**
+- MCP server implementation
+- Dynamic agent delegation
+- Multi-LLM abstraction layer
+- GitHub API integration
+- Strict type safety
+
+**Status:** Deployable framework
+
+[→ Repository](https://github.com/likhith-adithya/GITHUB-DEBUG-AI-AGENT)
+
+</td>
+<td width="50%">
+
+### 📈 STOCK-FORECAST
+**Analytics | Streamlit**
+
+*Python • Streamlit • Prophet*
+
+Interactive real-time stock analysis with AI-driven forecasting, technical indicators, and sentiment analysis.
+
+**Key Features:**
+- Real-time market data
+- Sector-wise filtering
+- Technical indicators
+- Sentiment analysis
+- Prophet forecasting
+
+**Status:** Full-stack analytics tool
+
+[→ Repository](https://github.com/likhith-adithya/Stock-Forecast)
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Technical Toolkit
+
+### 💻 Languages & Frameworks
+<div align="center">
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-### **🧠 AI & ML FRAMEWORKS**
+</div>
+
+### 🤖 AI/ML & LLM Ecosystem
+<div align="center">
+
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic-111111?style=flat-square)
+![Claude](https://img.shields.io/badge/Anthropic-111111?style=flat-square)
 ![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![NVIDIA](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/-HuggingFace-FDEE21?style=flat-square&logo=huggingface&logoColor=black)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FDEE21?style=flat-square&logo=huggingface&logoColor=black)
+
+</div>
+
+### 🏗️ Agent & Infrastructure
+<div align="center">
+
+![MCP](https://img.shields.io/badge/MCP-8B5CF6?style=flat-square)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8B5CF6?style=flat-square)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-00D9FF?style=flat-square)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+
+</div>
+
+### 🎨 UI/UX & Visualization
+<div align="center">
+
 ![Gradio](https://img.shields.io/badge/Gradio-FF4B4B?style=flat-square&logo=gradio&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=flat-square&logo=visual-studio-code&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 
-* **Agent Protocols & Frameworks:** Model Context Protocol (MCP), LangChain, Pydantic, Google ADK, Ollama, vLLM
-* **Tools & Libraries:** NumPy, Apache Spark, functools, async/await, Prophet, SerpAPI
-* **Vector Databases:** ChromaDB, Pinecone, FAISS
-* **Evaluation & Monitoring:** RAGAS, MLflow, structured logging, error tracking
+</div>
 
-### **☁️ CLOUD & DEVOPS**
+### ☁️ Cloud & DevOps
+<div align="center">
+
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
----
-
-## **📚 CERTIFICATIONS & CREDENTIALS**
-- 🚀 **[Credly Certifications](https://www.credly.com/users/likhithadithya)** — AI credentials
-- ☁️ **[Google Skills Profile](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)** — Google training
-- 👨‍💻 **OpenAI Developer Community** — Active member
-- 🤖 **Google Developer Group** — Community contributor
-
----
-
-## **📊 GITHUB ACTIVITY**
-<div align="center">
-  <img src="https://ghchart.rshah.org/0A66C2/likhith-adithya" alt="GitHub Contribution Graph" />
 </div>
 
 ---
 
-## **NEXT**
-Seeking internship or junior engineer roles in AI/ML systems engineering. Open to roles focused on multi-agent systems, inference infrastructure, developer tools, or production ML platforms.
+## 📜 Certifications & Credentials
 
-[Connect on LinkedIn](https://linkedin.com/in/likhith-adithya) | [View my repositories](https://github.com/likhith-adithya)
+<table align="center">
+<tr>
+<td align="center">
+
+🏆 **Credly**
+
+AI/ML Certifications
+
+[View Credentials](https://www.credly.com/users/likhithadithya)
+
+</td>
+<td align="center">
+
+📚 **Google Skills**
+
+Cloud & AI Training
+
+[View Profile](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)
+
+</td>
+<td align="center">
+
+🤖 **OpenAI**
+
+Developer Community
+
+Active Member
+
+</td>
+<td align="center">
+
+👥 **Google Developer Group**
+
+Community Leader
+
+Contributor
+
+</td>
+</tr>
+</table>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <img src="https://ghchart.rshah.org/0A66C2/likhith-adithya" alt="GitHub Contribution Graph" width="100%" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/likhith-adithya">
+    <img src="https://github-readme-stats.vercel.app/api?username=likhith-adithya&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
+  </a>
+</div>
+
+---
+
+## 🚀 Currently Seeking
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📌 INTERNSHIP / JUNIOR ENGINEER ROLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Focus Areas:
+  • Multi-agent systems & orchestration
+  • AI inference infrastructure
+  • Developer tools & accessibility
+  • Production ML platforms
+
+  Open to: Full-time, Internship, Contract
+  Locations: Remote-friendly preferred
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+<div align="center">
+  <p><strong>Let's build something extraordinary together</strong></p>
+  
+  <a href="https://linkedin.com/in/likhith-adithya">
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/likhith-adithya">
+    <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  
+  <p><sub>Last updated: 2026 | Always building, always learning</sub></p>
+</div>
