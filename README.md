@@ -1,297 +1,229 @@
-# <div align="center">✨ LIKHITH ADITHYA ✨</div>
-
 <div align="center">
-  <p>
-    <strong>AI/ML Engineer</strong> • <strong>Open Source Contributor</strong> • <strong>Systems Builder</strong>
-  </p>
-  <p>
-    Architecting production-grade multi-agent systems, distributed AI infrastructure, and autonomous reasoning systems that solve real-world problems at scale.
-  </p>
+
+# ✨ **LIKHITH ADITHYA** ✨
+
+### *AI/ML Engineer • Systems Architect • Open Source Contributor*
+
+Designing and shipping **production-grade multi-agent systems**, distributed AI infrastructure, and autonomous reasoning systems that scale.
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/likhith-adithya)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/likhith-adithya)
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/likhithadithya)
+[![Google Skills](https://img.shields.io/badge/Google%20Skills-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)
+
 </div>
 
 ---
 
 <div align="center">
-  <a href="https://linkedin.com/in/likhith-adithya">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/likhith-adithya">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://www.credly.com/users/likhithadithya">
-    <img alt="Credly" src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white" />
-  </a>
-  <a href="https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4">
-    <img alt="Google Skills" src="https://img.shields.io/badge/Google%20Skills-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  </a>
+
+### 💡 **CORE EXPERTISE**
+
 </div>
 
----
-
-## 💡 What I Build
-
-I specialize in engineering **production-grade AI systems** with a focus on scalability, reliability, and standardized protocols.
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│  Multi-Agent Systems    │  AI Infrastructure  │  Production ML  │
-│  MCP Protocols          │  Distributed Systems│  Developer Tools│
-└─────────────────────────────────────────────────────────────┘
-```
-
-- **🤖 Multi-Agent & Orchestration:** Agent-to-Agent (A2A) communication, Model Context Protocol (MCP) implementation, agentic loop design, dynamic task delegation
-- **⚡ AI Infrastructure:** Distributed inference systems, retrieval-augmented generation (RAG) pipelines, real-time data systems, latency optimization
-- **🚀 Production ML:** End-to-end ML systems, evaluation frameworks, automated deployment, monitoring & observability
-- **🛠️ Developer Tools:** CLI utilities, IDE extensions, framework abstractions, accessible AI for developers
-- **🌐 Open Source:** Production-ready frameworks, reusable patterns, community contributions
-
----
-
-## 🎯 Shipped Projects
-
-<table>
+<table align="center" cellpadding="20">
 <tr>
-<td width="50%">
-
-### 🌟 AI-CLI-PRO
-**Latest | Production-Ready**
-
-*Python • Multi-Agent • VS Code*
-
-One-click AI agent launcher from VS Code. Seamlessly integrated Gemini, Claude, and Copilot into a unified CLI experience.
-
-**Key Features:**
-- Multi-agent LLM orchestration
-- VS Code extension integration
-- Real-time streaming responses
-- Environment-based config
-- Async task execution
-
-**Status:** Active development & production deployment
-
-[→ Repository](https://github.com/likhith-adithya/AI-CLI-PRO-Public)
-
-</td>
-<td width="50%">
-
-### 🦙 NVIDIA LLAMA-3 HYBRID RAG
-**Production | Enterprise-Grade**
-
-*Python • NIM • ChromaDB • FastAPI*
-
-Professional modular RAG system with intelligent query routing, hybrid retrieval, and multi-format ingestion.
-
-**Key Features:**
-- LLM-based query routing
-- Live web search integration
-- Vector database persistence
-- Multi-turn conversation memory
-- Gradio + FastAPI deployment
-
-**Status:** Complete with 13+ test suite
-
-[→ Repository](https://github.com/likhith-adithya/Nvidia-Llama-RAG)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🔍 DEBUG AI AGENT
-**Multi-Agent | Enterprise Scale**
-
-*Python 3.12+ • MCP • Pydantic*
-
-Enterprise multi-agent system for GitHub repository analysis with orchestrator + specialist agents via A2A protocol.
-
-**Key Features:**
-- MCP server implementation
-- Dynamic agent delegation
-- Multi-LLM abstraction layer
-- GitHub API integration
-- Strict type safety
-
-**Status:** Deployable framework
-
-[→ Repository](https://github.com/likhith-adithya/GITHUB-DEBUG-AI-AGENT)
-
-</td>
-<td width="50%">
-
-### 📈 STOCK-FORECAST
-**Analytics | Streamlit**
-
-*Python • Streamlit • Prophet*
-
-Interactive real-time stock analysis with AI-driven forecasting, technical indicators, and sentiment analysis.
-
-**Key Features:**
-- Real-time market data
-- Sector-wise filtering
-- Technical indicators
-- Sentiment analysis
-- Prophet forecasting
-
-**Status:** Full-stack analytics tool
-
-[→ Repository](https://github.com/likhith-adithya/Stock-Forecast)
-
-</td>
+<td width="25%"><strong>🤖 Multi-Agent Systems</strong><br/>A2A protocols, MCP implementation, agentic loops</td>
+<td width="25%"><strong>⚡ AI Infrastructure</strong><br/>Distributed inference, RAG pipelines, optimization</td>
+<td width="25%"><strong>🚀 Production ML</strong><br/>End-to-end systems, evaluation, deployment</td>
+<td width="25%"><strong>🛠️ Developer Tools</strong><br/>CLI utilities, IDE extensions, frameworks</td>
 </tr>
 </table>
 
 ---
 
-## 🧰 Technical Toolkit
-
-### 💻 Languages & Frameworks
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+## 🎯 **FEATURED PROJECTS**
 
 </div>
 
-### 🤖 AI/ML & LLM Ecosystem
 <div align="center">
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Anthropic-111111?style=flat-square)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
-![NVIDIA](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FDEE21?style=flat-square&logo=huggingface&logoColor=black)
+| 🌟 **AI-CLI-PRO** | 🦙 **NVIDIA LLAMA RAG** |
+|:---:|:---:|
+| **One-click AI agent launcher** from VS Code | **Enterprise RAG system** with smart routing |
+| *Python • Multi-Agent • VS Code* | *Python • NIM • ChromaDB • FastAPI* |
+| ✓ Gemini, Claude, Copilot integration | ✓ Hybrid retrieval (local + web search) |
+| ✓ Real-time streaming | ✓ Multi-format document ingestion |
+| ✓ Async task execution | ✓ Production-ready + 13+ tests |
+| [→ Repository](https://github.com/likhith-adithya/AI-CLI-PRO-Public) | [→ Repository](https://github.com/likhith-adithya/Nvidia-Llama-RAG) |
 
-</div>
-
-### 🏗️ Agent & Infrastructure
-<div align="center">
-
-![MCP](https://img.shields.io/badge/MCP-8B5CF6?style=flat-square)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8B5CF6?style=flat-square)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-00D9FF?style=flat-square)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
-
-</div>
-
-### 🎨 UI/UX & Visualization
-<div align="center">
-
-![Gradio](https://img.shields.io/badge/Gradio-FF4B4B?style=flat-square&logo=gradio&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-</div>
-
-### ☁️ Cloud & DevOps
-<div align="center">
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+| 🔍 **DEBUG AI AGENT** | 📈 **STOCK-FORECAST** |
+|:---:|:---:|
+| **Enterprise multi-agent system** for code analysis | **Real-time stock analytics** with AI forecasting |
+| *Python 3.12+ • MCP • Pydantic* | *Python • Streamlit • Prophet* |
+| ✓ MCP server implementation | ✓ Real-time market data integration |
+| ✓ Dynamic agent delegation | ✓ Technical indicators & sentiment analysis |
+| ✓ Multi-LLM abstraction layer | ✓ AI-driven price prediction |
+| [→ Repository](https://github.com/likhith-adithya/GITHUB-DEBUG-AI-AGENT) | [→ Repository](https://github.com/likhith-adithya/Stock-Forecast) |
 
 </div>
 
 ---
 
-## 📜 Certifications & Credentials
+<div align="center">
 
-<table align="center">
+## 🛠️ **TECH STACK**
+
+</div>
+
+<div align="center">
+
+### **🐍 Core Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+### **🤖 AI & LLM Platforms**
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+
+### **📊 ML Frameworks**
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+### **🏗️ Agentic Frameworks**
+![MCP](https://img.shields.io/badge/MCP-8B5CF6?style=for-the-badge)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8B5CF6?style=for-the-badge)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+
+### **🗄️ Data & Storage**
+![ChromaDB](https://img.shields.io/badge/ChromaDB-00D9FF?style=for-the-badge)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+### **🎨 Frontend & Visualization**
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Gradio](https://img.shields.io/badge/Gradio-FF4B4B?style=for-the-badge&logo=gradio&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### **☁️ Infrastructure**
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+</div>
+
+---
+
+<div align="center">
+
+## 📊 **GITHUB ANALYTICS**
+
+<img src="https://ghchart.rshah.org/0A66C2/likhith-adithya" alt="GitHub Contribution Graph" width="100%" />
+
+<a href="https://github.com/likhith-adithya">
+  <img src="https://github-readme-stats.vercel.app/api?username=likhith-adithya&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0d1117&text_color=ffffff" alt="GitHub Stats" width="48%" />
+</a>
+<a href="https://github.com/likhith-adithya?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=likhith-adithya&theme=dark&hide_border=true&bg_color=0d1117&text_color=ffffff" alt="Top Languages" width="48%" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🏆 **CREDENTIALS & ACHIEVEMENTS**
+
+<table align="center" cellpadding="15">
 <tr>
-<td align="center">
+<td align="center" width="25%">
 
-🏆 **Credly**
+**🏅 Credly Certifications**
 
-AI/ML Certifications
+AI/ML Professional Credentials
 
-[View Credentials](https://www.credly.com/users/likhithadithya)
-
-</td>
-<td align="center">
-
-📚 **Google Skills**
-
-Cloud & AI Training
-
-[View Profile](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)
+[View Profile →](https://www.credly.com/users/likhithadithya)
 
 </td>
-<td align="center">
+<td align="center" width="25%">
 
-🤖 **OpenAI**
+**☁️ Google Skills**
 
-Developer Community
+Cloud & AI Specialization
 
-Active Member
+[View Profile →](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)
 
 </td>
-<td align="center">
+<td align="center" width="25%">
 
-👥 **Google Developer Group**
+**🤖 OpenAI Developer**
 
-Community Leader
+Active Community Member
 
-Contributor
+Contributor & Explorer
+
+</td>
+<td align="center" width="25%">
+
+**👥 GDG Community**
+
+Google Developer Group
+
+Local Contributor
 
 </td>
 </tr>
 </table>
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://ghchart.rshah.org/0A66C2/likhith-adithya" alt="GitHub Contribution Graph" width="100%" />
-</div>
-
-<div align="center">
-  <a href="https://github.com/likhith-adithya">
-    <img src="https://github-readme-stats.vercel.app/api?username=likhith-adithya&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="GitHub Stats" />
-  </a>
 </div>
 
 ---
 
-## 🚀 Currently Seeking
+<div align="center">
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  📌 INTERNSHIP / JUNIOR ENGINEER ROLES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## 🚀 **CURRENTLY SEEKING**
 
-  Focus Areas:
-  • Multi-agent systems & orchestration
-  • AI inference infrastructure
-  • Developer tools & accessibility
-  • Production ML platforms
+<table align="center" cellpadding="20" style="border: 2px solid #4285F4; border-radius: 10px; background: rgba(66, 133, 244, 0.05);">
+<tr>
+<td align="center">
 
-  Open to: Full-time, Internship, Contract
-  Locations: Remote-friendly preferred
+**💼 Open Opportunities**
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+- **Internships** & **Junior Engineer** roles
+- Full-time, Contract, or Project-based engagements
+- Remote-friendly preferred 🌍
+
+**Focus Areas:**
+- 🤖 Multi-agent systems & orchestration
+- ⚡ AI inference infrastructure  
+- 🛠️ Developer tools & accessibility
+- 🚀 Production ML platforms
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
 <div align="center">
-  <p><strong>Let's build something extraordinary together</strong></p>
-  
-  <a href="https://linkedin.com/in/likhith-adithya">
-    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/likhith-adithya">
-    <img src="https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  
-  <p><sub>Last updated: 2026 | Always building, always learning</sub></p>
+
+### 💬 **Let's collaborate and build something extraordinary**
+
+<a href="https://linkedin.com/in/likhith-adithya">
+  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://github.com/likhith-adithya">
+  <img src="https://img.shields.io/badge/Explore%20My%20Work-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+<a href="mailto:your-email@example.com">
+  <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+<br/><br/>
+
+<sub>🎯 Always building • 🔬 Always learning • 🌟 Always growing</sub>
+
 </div>
