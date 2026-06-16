@@ -1,229 +1,145 @@
-<div align="center">
+# **LIKHITH ADITHYA**
 
-# ✨ **LIKHITH ADITHYA** ✨
+**AI/ML Engineer  Open Source Contributor**  
+Building production-grade multi-agent systems and AI infrastructure. Developing scalable ML pipelines and autonomous reasoning systems for real-world problems.
 
-### *AI/ML Engineer • Systems Architect • Open Source Contributor*
-
-Designing and shipping **production-grade multi-agent systems**, distributed AI infrastructure, and autonomous reasoning systems that scale.
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/likhith-adithya)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/likhith-adithya)
-[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white)](https://www.credly.com/users/likhithadithya)
-[![Google Skills](https://img.shields.io/badge/Google%20Skills-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)
-
+<div align="left">
+  <a href="https://www.credly.com/users/likhithadithya"><img alt="Credly" src="https://img.shields.io/badge/Credly-Certifications-FF6B00?style=flat-square&logo=credly&logoColor=white" /></a>
+  <a href="https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4"><img alt="Google Skills" src="https://img.shields.io/badge/Google-Skills%20Profile-4285F4?style=flat-square" /></a>
+  <a href="https://linkedin.com/in/likhith-adithya"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://openai.com/"><img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-Developer-412991?style=flat-square&logo=openai&logoColor=white" /></a>
+  <a href="https://gdg.community.dev/"><img alt="Google Developer Group" src="https://img.shields.io/badge/GDG-Community-4285F4?style=flat-square&logo=google&logoColor=white" /></a>
 </div>
 
 ---
 
-<div align="center">
+## **💡 WHAT I BUILD**
+I architect and ship multi-agent systems, distributed AI infrastructure, and production ML pipelines. I work with standardized protocols like MCP to enable agent interoperability, optimize inference, [...]
 
-### 💡 **CORE EXPERTISE**
-
-</div>
-
-<table align="center" cellpadding="20">
-<tr>
-<td width="25%"><strong>🤖 Multi-Agent Systems</strong><br/>A2A protocols, MCP implementation, agentic loops</td>
-<td width="25%"><strong>⚡ AI Infrastructure</strong><br/>Distributed inference, RAG pipelines, optimization</td>
-<td width="25%"><strong>🚀 Production ML</strong><br/>End-to-end systems, evaluation, deployment</td>
-<td width="25%"><strong>🛠️ Developer Tools</strong><br/>CLI utilities, IDE extensions, frameworks</td>
-</tr>
-</table>
+- **Multi-Agent Systems & MCP:** Build Agent-to-Agent (A2A) communication patterns, implement Model Context Protocol (MCP) for standardized tool interoperability, design agentic loop architectures
+- **AI Infrastructure:** Develop distributed inference systems, retrieval pipelines, and real-time data systems with latency optimization and production robustness.
+- **Production ML:** Ship end-to-end ML systems with evaluation frameworks, automated deployment, and monitoring strategies.
+- **Developer Tools:** Build CLI tools and IDE extensions that bring AI capabilities directly to developers.
+- **Open Source:** Contribute to production AI systems, build reusable frameworks, and maintain code for real-world usage.
 
 ---
 
-<div align="center">
+## **🚀 SHIPPED PROJECTS**
 
-## 🎯 **FEATURED PROJECTS**
+### **[AI-CLI-PRO](https://github.com/likhith-adithya/AI-CLI-PRO-Public)** ⭐ **LATEST**
+*Python • Multi-Agent CLI • VS Code Extension • Gemini • Claude • Copilot*
 
-</div>
+- **What I Built:** One-click AI agent launcher directly from VS Code. Integrated Gemini, Claude, and Copilot into a seamless CLI experience. The fastest way to access multiple AI models from your terminal.
 
-<div align="center">
+- **Technical Implementation:**
+  - Multi-agent orchestration for different LLM providers
+  - VS Code extension integration with CLI commands
+  - Environment-based configuration for API keys
+  - Async task execution for responsive UX
+  - Real-time streaming responses
 
-| 🌟 **AI-CLI-PRO** | 🦙 **NVIDIA LLAMA RAG** |
-|:---:|:---:|
-| **One-click AI agent launcher** from VS Code | **Enterprise RAG system** with smart routing |
-| *Python • Multi-Agent • VS Code* | *Python • NIM • ChromaDB • FastAPI* |
-| ✓ Gemini, Claude, Copilot integration | ✓ Hybrid retrieval (local + web search) |
-| ✓ Real-time streaming | ✓ Multi-format document ingestion |
-| ✓ Async task execution | ✓ Production-ready + 13+ tests |
-| [→ Repository](https://github.com/likhith-adithya/AI-CLI-PRO-Public) | [→ Repository](https://github.com/likhith-adithya/Nvidia-Llama-RAG) |
+- **Results:** Production-ready developer tool with comprehensive docs and active development. Deployed to users for daily AI agent access.
 
-| 🔍 **DEBUG AI AGENT** | 📈 **STOCK-FORECAST** |
-|:---:|:---:|
-| **Enterprise multi-agent system** for code analysis | **Real-time stock analytics** with AI forecasting |
-| *Python 3.12+ • MCP • Pydantic* | *Python • Streamlit • Prophet* |
-| ✓ MCP server implementation | ✓ Real-time market data integration |
-| ✓ Dynamic agent delegation | ✓ Technical indicators & sentiment analysis |
-| ✓ Multi-LLM abstraction layer | ✓ AI-driven price prediction |
-| [→ Repository](https://github.com/likhith-adithya/GITHUB-DEBUG-AI-AGENT) | [→ Repository](https://github.com/likhith-adithya/Stock-Forecast) |
+### **[NVIDIA LLAMA-3 HYBRID RAG](https://github.com/likhith-adithya/Nvidia-Llama-RAG)**
+*Python • NVIDIA NIM • ChromaDB • SerpAPI • Gradio • FastAPI • CLI*
 
-</div>
+- **What I Built:** Professional, modular hybrid Retrieval-Augmented Generation (RAG) system using NVIDIA Llama-3.3 LLM with real-time web search (SerpAPI) and persistent local vector database (ChromaDB).
 
----
+- **Technical Implementation:**
+  - **Intelligent Query Routing:** LLM-based router that automatically classifies queries between LOCAL (documents), WEB (search), or NONE (conversation)
+  - **Hybrid Retrieval Pipeline:** Integrates SerpAPI for live web search with ChromaDB vector database using `all-MiniLM-L6-v2` embeddings
+  - **Multi-Format Ingestion:** Supports `.txt` and `.pdf` files with automatic chunking, embedding, and persistent storage
+  - **Stateful Memory Management:** Maintains rolling conversation history buffer for multi-turn dialogue context
+  - **Error Handling & Fallback:** Graceful degradation with automatic fallback to general knowledge on missing keys or empty databases
+  - **Flexible Deployment:** Gradio web UI (`http://127.0.0.1:7860`), lightweight CLI, and FastAPI REST server (`http://0.0.0.0:8000`)
+  - **Comprehensive Testing:** 13+ unit tests (mocked) + integration tests with live API validation
+  - **Production Architecture:** Modular src/ structure, environment-based configuration, no hardcoded secrets
 
-<div align="center">
+- **Results:** Production-ready RAG system with comprehensive documentation, multi-mode deployment (web/CLI/API), 13+ test suite, and demonstrated handling of edge cases like fallback routing and memory management.
 
-## 🛠️ **TECH STACK**
+### **[DEBUG AI AGENT](https://github.com/likhith-adithya/GITHUB-DEBUG-AI-AGENT)**
+*Python 3.12+ • Pydantic • Async/Await • Google ADK • MCP • Agent-to-Agent Protocol*
 
-</div>
+- **What I Built:** Enterprise-scale multi-agent system for GitHub repository analysis. Implemented primary orchestrator agent that dynamically spawns specialized Debug Agents via A2A protocol. Integrated MCP specification.
 
-<div align="center">
+- **Technical Implementation:**
+  - **Implemented MCP Specification:** Built MCP server for standardized tool/resource sharing between orchestrator and specialist agents, enabling interoperable multi-agent workflows
+  - **Agent Delegation System:** Designed A2A protocol for agent spawning, task assignment, and result aggregation with proper error handling and retry logic
+  - **Multi-LLM Support:** Built abstraction layer supporting OpenAI, Google Gemini, local Ollama/vLLM with unified interface
+  - **Production Architecture:** Strict typing with Pydantic, async/await concurrency, CLI interface, environment configuration, structured logging
+  - **Tool Integration:** Integrated GitHub API with MCP-compliant tool protocol for code analysis, bug detection, security scanning
 
-### **🐍 Core Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+- **Results:** Deployable agent framework with extensible architecture. Demonstrated sophisticated coordination patterns and standardized protocol implementation.
 
-### **🤖 AI & LLM Platforms**
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![NVIDIA NIM](https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+### **[STOCK-FORECAST](https://github.com/likhith-adithya/Stock-Forecast)**
+*Python • Streamlit • Pandas • Prophet • Real-time Data Analysis*
 
-### **📊 ML Frameworks**
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+- **What I Built:** Interactive Streamlit app for real-time stock analysis and AI-driven price forecasting. Features live market data, sector-wise stock charts, technical indicators, news sentiment analysis.
 
-### **🏗️ Agentic Frameworks**
-![MCP](https://img.shields.io/badge/MCP-8B5CF6?style=for-the-badge)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8B5CF6?style=for-the-badge)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+- **Technical Implementation:**
+  - Real-time market data integration
+  - Sector-wise filtering and dynamic charting
+  - Technical indicator calculations
+  - News sentiment analysis for market context
+  - Prophet time-series forecasting for price predictions
 
-### **🗄️ Data & Storage**
-![ChromaDB](https://img.shields.io/badge/ChromaDB-00D9FF?style=for-the-badge)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-### **🎨 Frontend & Visualization**
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Gradio](https://img.shields.io/badge/Gradio-FF4B4B?style=for-the-badge&logo=gradio&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### **☁️ Infrastructure**
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-</div>
+- **Results:** Full-stack analytics tool with customizable date ranges, sector selection, and chart types for informed investing decisions.
 
 ---
 
-<div align="center">
+## **🛠️ TECHNICAL TOOLKIT**
 
-## 📊 **GITHUB ANALYTICS**
+### **💻 LANGUAGES & BACKENDS**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 
-<img src="https://ghchart.rshah.org/0A66C2/likhith-adithya" alt="GitHub Contribution Graph" width="100%" />
+### **🧠 AI & ML FRAMEWORKS**
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic-111111?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/-HuggingFace-FDEE21?style=flat-square&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-8B5CF6?style=flat-square)
+![Gradio](https://img.shields.io/badge/Gradio-FF4B4B?style=flat-square&logo=gradio&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 
-<a href="https://github.com/likhith-adithya">
-  <img src="https://github-readme-stats.vercel.app/api?username=likhith-adithya&show_icons=true&theme=dark&hide_border=true&count_private=true&bg_color=0d1117&text_color=ffffff" alt="GitHub Stats" width="48%" />
-</a>
-<a href="https://github.com/likhith-adithya?tab=repositories">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=likhith-adithya&theme=dark&hide_border=true&bg_color=0d1117&text_color=ffffff" alt="Top Languages" width="48%" />
-</a>
+* **Agent Protocols & Frameworks:** Model Context Protocol (MCP), LangChain, Pydantic, Google ADK, Ollama, vLLM
+* **Tools & Libraries:** NumPy, Apache Spark, functools, async/await, Prophet, SerpAPI
+* **Vector Databases:** ChromaDB, Pinecone, FAISS
+* **Evaluation & Monitoring:** RAGAS, MLflow, structured logging, error tracking
 
-</div>
+### **☁️ CLOUD & DEVOPS**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=flat-square&logo=visual-studio-code&logoColor=white)
 
 ---
 
+## **📚 CERTIFICATIONS & CREDENTIALS**
+- 🚀 **[Credly Certifications](https://www.credly.com/users/likhithadithya)** — AI credentials
+- ☁️ **[Google Skills Profile](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)** — Google training
+- 👨‍💻 **OpenAI Developer Community** — Active member
+- 🤖 **Google Developer Group** — Community contributor
+
+---
+
+## **📊 GITHUB ACTIVITY**
 <div align="center">
-
-## 🏆 **CREDENTIALS & ACHIEVEMENTS**
-
-<table align="center" cellpadding="15">
-<tr>
-<td align="center" width="25%">
-
-**🏅 Credly Certifications**
-
-AI/ML Professional Credentials
-
-[View Profile →](https://www.credly.com/users/likhithadithya)
-
-</td>
-<td align="center" width="25%">
-
-**☁️ Google Skills**
-
-Cloud & AI Specialization
-
-[View Profile →](https://www.skills.google/public_profiles/f34847e8-c3db-4453-8ec4-139e26a435d4)
-
-</td>
-<td align="center" width="25%">
-
-**🤖 OpenAI Developer**
-
-Active Community Member
-
-Contributor & Explorer
-
-</td>
-<td align="center" width="25%">
-
-**👥 GDG Community**
-
-Google Developer Group
-
-Local Contributor
-
-</td>
-</tr>
-</table>
-
+  <img src="https://ghchart.rshah.org/0A66C2/likhith-adithya" alt="GitHub Contribution Graph" />
 </div>
 
 ---
 
-<div align="center">
+## **NEXT**
+Seeking internship or junior engineer roles in AI/ML systems engineering. Open to roles focused on multi-agent systems, inference infrastructure, developer tools, or production ML platforms.
 
-## 🚀 **CURRENTLY SEEKING**
-
-<table align="center" cellpadding="20" style="border: 2px solid #4285F4; border-radius: 10px; background: rgba(66, 133, 244, 0.05);">
-<tr>
-<td align="center">
-
-**💼 Open Opportunities**
-
-- **Internships** & **Junior Engineer** roles
-- Full-time, Contract, or Project-based engagements
-- Remote-friendly preferred 🌍
-
-**Focus Areas:**
-- 🤖 Multi-agent systems & orchestration
-- ⚡ AI inference infrastructure  
-- 🛠️ Developer tools & accessibility
-- 🚀 Production ML platforms
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-### 💬 **Let's collaborate and build something extraordinary**
-
-<a href="https://linkedin.com/in/likhith-adithya">
-  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="https://github.com/likhith-adithya">
-  <img src="https://img.shields.io/badge/Explore%20My%20Work-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</a>
-<a href="mailto:your-email@example.com">
-  <img src="https://img.shields.io/badge/Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-
-<br/><br/>
-
-<sub>🎯 Always building • 🔬 Always learning • 🌟 Always growing</sub>
-
-</div>
+[Connect on LinkedIn](https://linkedin.com/in/likhith-adithya) | [View my repositories](https://github.com/likhith-adithya)
